@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "useful-links-client-side-solution",
+    "id": "e576dc50-cf5a-4e22-a705-a6a88a0fdb3a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/useful-links.sppkg"
+  }
+}

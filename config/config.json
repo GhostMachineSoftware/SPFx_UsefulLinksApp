@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "bootstrap-4-sp-fx-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/bootstrap4SpFx/Bootstrap4SpFxWebPart.js",
+          "manifest": "./src/webparts/bootstrap4SpFx/Bootstrap4SpFxWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery-ui": "https://code.jquery.com/ui/1.12.1/jquery-ui.min.js",
+
+    "jquery": {
+      "path": "https://code.jquery.com/jquery-3.4.1.min.js",
+      "globalName": "jquery"
+    },
+    "bootstrap": {
+      "path": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
+      "globalName": "bootstrap",
+      "globalDependencies": ["jquery"]
+    }
+  },
+  "localizedResources": {
+    "Bootstrap4SpFxWebPartStrings": "lib/webparts/bootstrap4SpFx/loc/{locale}.js"
+  }
+}

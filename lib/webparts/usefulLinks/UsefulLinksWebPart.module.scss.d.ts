@@ -8,6 +8,8 @@ declare const styles: {
     subTitle: string;
     description: string;
     button: string;
+    list: string;
+    listItem: string;
     label: string;
 };
 export default styles;

@@ -1,0 +1,26 @@
+.panel-heading{background-color:#ddddeb!important}
+.panel-heading h4{text-decoration:none; color:#545487!important}
+.panel :hover {background-color:#7676b8!important; text-decoration: none!important}
+.panel :hover .panel-title {color:white!important; text-decoration: none!important}
+.panel :hover .panel-body{background-color:white!important;color:#545487!important}
+
+.accordionToggle:after {
+    position: relative;
+    top:-20px;
+    left:-10px;
+    font-family: 'Glyphicons Halflings';
+    font-size: 1.1em;
+    content: "\e114";
+    float: right;
+    color: white !important;
+}
+
+.accordionToggle.collapsed:after {
+    position: relative;
+    top:-20px;
+    left:-10px;    
+    font-family: 'Glyphicons Halflings';
+    font-size: 1.1em;
+    content: "\e080";
+    color: white !important;
+}
